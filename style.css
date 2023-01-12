@@ -1,0 +1,78 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root{
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+
+}
+
+.container {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--very-dark-blue);
+    background-image: url('images/bg-desktop.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section.items {
+    box-sizing: border-box  ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+}
+
+.menu {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background: var(--dark-blue);
+    padding: 36px;
+    border-radius: 8px 60px 8px 8px;
+    width: 230px;
+}
+
+#logo-menu {
+    width: 120px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.menu ul li .h-6{
+    height: 20px;
+}
+
+.menu ul li .w-6{
+    width: 20px;
+}
+   
+.bg-dark-blue {
+    background: var(--very-dark-blue);
+}
+
+.icon-item {
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+}
+

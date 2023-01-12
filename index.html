@@ -5,27 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  You’ve used 815 GB of your storage
+  <div class="container"> <!--container-->
+    <section class="items"> <!--section items-->
 
-  185 GB Left
+      <div class="menu"> <!--menu-->
+        <img src="images/logo.svg" id="logo-menu">
+        <ul class="icon-list">
+          <li class="icon-item bg-dark-blue">
+            <img src="images/icon-document.svg" class="h-6 w-6">
+          </li>
   
-  0 GB
-  1000 GB
+          <li class="icon-item bg-dark-blue">
+            <img src="images/icon-folder.svg" class="h-6 w-6">
+          </li>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <li class="icon-item bg-dark-blue">
+            <img src="images/icon-upload.svg" class="h-6 w-6">
+          </li>
+        </ul>
+      </div> <!--menu-->
+  
+      <div class="data-storage"> <!--data storage-->
+        <span>You’ve used 815 GB of your storage</span>
+        <span>185 GB Left</span>
+      
+        <span>0 GB</span>
+        <span>1000 GB</span>
+      </div> <!--data storage-->
+
+    </section> <!--section items-->
+  </div><!--container-->
+  
+
 </body>
 </html>
