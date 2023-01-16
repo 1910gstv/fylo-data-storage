@@ -16,29 +16,44 @@
   <div class="container"> <!--container-->
     <section class="items"> <!--section items-->
 
-      <div class="menu"> <!--menu-->
+      <div class="menu bg-dark-blue"> <!--menu-->
         <img src="images/logo.svg" id="logo-menu">
         <ul class="icon-list">
-          <li class="icon-item bg-dark-blue">
+          <li class="icon-item bg-very-dark-blue">
             <img src="images/icon-document.svg" class="h-6 w-6">
           </li>
   
-          <li class="icon-item bg-dark-blue">
+          <li class="icon-item bg-very-dark-blue">
             <img src="images/icon-folder.svg" class="h-6 w-6">
           </li>
   
-          <li class="icon-item bg-dark-blue">
+          <li class="icon-item bg-very-dark-blue">
             <img src="images/icon-upload.svg" class="h-6 w-6">
           </li>
         </ul>
       </div> <!--menu-->
   
-      <div class="data-storage"> <!--data storage-->
-        <span>You’ve used 815 GB of your storage</span>
-        <span>185 GB Left</span>
+      <div class="data-storage bg-dark-blue font-pale-blue"> <!--data storage-->
+        <div class="top">
+          <span>You've used <b>815 GB</b> of your storage</span>
+          <div class="box bg-white font-black">
+            <span><b>185</b> GB Left</span>
+          </div>
+        </div>
+
+        <div class="progress-bar bg-very-dark-blue">
+          <div class="progress-line">
+            <div class="progress-ball">
+
+            </div>
+          </div>
+        </div>
       
-        <span>0 GB</span>
-        <span>1000 GB</span>
+        <div class="bottom">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+
       </div> <!--data storage-->
 
     </section> <!--section items-->
